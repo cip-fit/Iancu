@@ -1,14 +1,13 @@
-"""
+
 for i in lista:
     bloc de cod
-"""
+
 
 # for i in ['Ana are mere']:
 #     print(i)
 
 # i = 'seara'
 
-lista = 
 
 # for i in enumerate(lista):
 #     print(i)
@@ -17,5 +16,6 @@ lista =
 # dictionar = {'a': 1, 'b': 2}
 # for key, value in dictionar.items():
     # print(key, value)
+
 
 

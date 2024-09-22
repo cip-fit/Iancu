@@ -1,4 +1,5 @@
 #structuri repetitive = while, for
+
 """
 while conditie
     bloc de instructiuni
