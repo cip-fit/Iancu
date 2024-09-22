@@ -16,6 +16,7 @@ while cuvant_2 != cuvant and nr_vieti > 0:
     litera_c = input("Alege o litera: ")
 
     if litera_c in cuvant:
+
         lista_cuvant_2 = list(cuvant_2)
 
         for i, v in enumerate(cuvant):
