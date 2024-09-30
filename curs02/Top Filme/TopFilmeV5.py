@@ -18,28 +18,43 @@ x = [
      'filme': ['Fight Club', 'Slumdog Milionaire']}
 ]
 
+
+# Lista nr filme
+
 filme = []
+
 for i in x:
     for film in i['filme']:
         filme.append(film)
-# print(filme)
-
+print(filme)
 
 a = len(filme)
+
 max_count = 0
 
 for i in range(a):
+
     count = 0
+
     for j in range(a):
+
         if filme[i] == filme[j]:
             count += 1
+
     if count > max_count:
         max_count = count
-        most_watched = filme[i]
-print(most_watched)
+        cmvf = filme[i]
+
+print(cmvf)
+
+
+
 
 
 filme_vazute = 0
+
+# Pentru prima pozitie, i preia valuarea primului dictionar din lista
+
 for i in x:
 
     if len(i['filme']) > filme_vazute:
@@ -79,16 +94,15 @@ print(lista)
 movie_counts = {}
 
 for i in filme:
-
     if i in movie_counts:
         movie_counts[i] += 1
     else:
         movie_counts[i] = 1
-
-# print(movie_counts)
+print(movie_counts)
 
 # Top filme
 top_filme = list(movie_counts.items())
+
 # print(lista_filme)
 
 for i in range(len(top_filme)):
@@ -118,4 +132,3 @@ for i in range(len(cinefili)):
 
 for i, v in cinefili:
     print(i + ": " + str(v) + " filme")
-

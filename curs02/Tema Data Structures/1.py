@@ -10,6 +10,8 @@ Create a Python script that fulfills the following functions:
 
 """
 
+
+
 lista = [7, 8, 9, 2, 3, 1, 4, 10, 5, 6]
 
 a = sorted(lista)
@@ -17,23 +19,23 @@ print(a)
 
 # Length of the list to determine how many times to loop
 a = len(lista)
+b=lista
 
 # OL: Allows us to access 0 to n-1 / i becomes 0, 1, 2, 3
 for i in range(a):
 
-# IL: Starts from i+1 up to end of the list
+    # IL: Starts from i+1 up to end of the list
     for j in range(i + 1, a):
 
-# Compare first element with the second
-        if lista[i] < lista[j]:
+        # Compare first element with the second
+        if b[i] < b[j]:
 
-# For i=0, j=1: list[i] = 7, list[j] = 8
-            lista[i], lista[j] = lista[j], lista[i]
+            # For i=0, j=1: list[i] = 7, list[j] = 8
+            b[i], b[j] = b[j], b[i]
+
 
 # Print list in a descending order
-print(lista)
-
-lista = [7, 8, 9, 2, 3, 1, 4, 10, 5, 6]
+print(b)
 
 b = len(lista)
 

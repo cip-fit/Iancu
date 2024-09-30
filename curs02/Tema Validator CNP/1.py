@@ -22,6 +22,10 @@ Se doreste realizarea unui validator de CNP.
 
 ✅All checks must pass for valid CNP.
 """
+#TODO orice text
+
+
+
 judete = {
     '01': 'Alba',
     '02': 'Arad',

@@ -8,8 +8,8 @@ b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 
 c={}
 
-for i in a:
-    if i in b:
+for i in b:
+    if i in a:
         a1=set(a)
         b1=set(b)
         c = a1.intersection(b)
