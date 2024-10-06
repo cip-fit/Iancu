@@ -27,7 +27,7 @@ Top filme dupa vizionari: Fight Club, Bond, Dracula, Shrek, The nun ...
 Top utilizatori cu cele mai multe filme vizionate - Cristian, George, Stefan
 """
 
-lista_filme =[ {
+lista_filme = [ {
    'nume': 'George',
    'filme': ['Shrek', 'Bond', 'Fight Club']
  },
@@ -38,8 +38,7 @@ lista_filme =[ {
 {
  'nume' : 'Stefan',
  'filme': ['Fight Club', 'Slumdog Milionare']
-}
-]
+} ]
 
 # cmvf = ()
 
